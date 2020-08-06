@@ -5,8 +5,8 @@ module.exports = {
   connection: {
     filename: path.resolve(__dirname, 'src', 'database', 'database.sqlite')
   }, 
-  micrations: {
-    directory: path.resolve(__dirname, 'src', 'database', 'micrations')
-  }, 
+  migrations: {
+    directory: path.resolve(__dirname, 'src', 'database', 'micrations'),
+  },
   useNullAsDefault: true
 };
